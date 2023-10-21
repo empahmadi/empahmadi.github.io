@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #2d2d2d;
+    color: #e2e2e2;
+}
+
+@media (min-width: 992px) and (max-width: 1660px) {
+    /* Header */
+    .image {
+        display: none;
+    }
+
+    .selected {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .triangle {
+        float: left;
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-bottom: 24px solid #2d2d2d;
+        margin-top: 14px;
+    }
+
+    #header {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 500px;
+        background-image: url("../images/main_bg.jpg");
+        background-attachment: fixed;
+        background-size: 100% 500px;
+        background-repeat: no-repeat;
+    }
+
+    .menu {
+        display: block !important;
+        position: absolute;
+        height: 70px;
+        width: 84%;
+        top: 430px
+    }
+
+    .menu ul {
+        height: 100%;
+        margin: 0;
+        padding: 0
+    }
+
+    .m-l {
+        height: 70px;
+        margin: 0 !important;
+        list-style: none;
+        text-align: center;
+        float: left;
+        width: 18%;
+        padding: 0;
+    }
+
+    .m-l span {
+        color: #e2e2e2;
+        font-size: 25px;
+        line-height: 32px;
+        text-decoration: none;
+    }
+
+    .m-l:hover {
+        cursor: pointer;
+    }
+
+    .logo {
+        display: block;
+        position: absolute;
+        top: 125px;
+        left: 10%;
+    }
+
+    .logo span {
+        font-size: 83px;
+        color: #6e6e6e !important;
+        line-height: 0;
+        user-select: none;
+        cursor: default;
+    }
+
+    .logo p {
+        font-size: 25px;
+        color: #6e6e6e;
+        padding-left: 5px;
+        margin: 0;
+        user-select: none;
+        cursor: default;
+    }
+
+    .logo p a:hover, .logo span a:hover {
+        color: #000024;
+    }
+
+    /* End Of Header */
+    /* Content*/
+    #content{
+        width: 90%;
+        margin: 20px 5%;
+        background: #424242;
+        border-radius: 10px;
+        padding: 10px 3%;
+        box-sizing: border-box;
+    }
+    /* End of Content*/
+    /* Footer */
+    #footer {
+        margin: 0;
+        padding: 10px 0;
+        width: 100%;
+        background: #4c4c4c;
+        text-align: center;
+    }
+
+    #footer .socials a {
+        text-decoration: none;
+        height: fit-content;
+        margin: 0 5px;
+    }
+}
+
+@media (min-width: 540px) and (max-width: 992px) {
+    /* Header */
+    .selected {
+        align-items: center;
+        background: #335f31;
+    }
+
+
+    #header {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background: #4c4c4c;
+    }
+
+    .image {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .image span {
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .menu {
+        display: block !important;
+        height: 200px;
+        width: 100%;
+    }
+
+    .menu ul {
+        margin: 0;
+        padding: 0
+    }
+
+    .m-l {
+        height: 40px;
+        list-style: none;
+        text-align: center;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .m-l span {
+        color: #e2e2e2;
+        font-size: 24px;
+        line-height: 30px;
+        text-decoration: none;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px 0;
+        display: table;
+    }
+
+    .triangle {
+        width: 100%;
+    }
+
+    .m-l:hover {
+        cursor: pointer;
+    }
+
+    .logo {
+        display: block;
+        position: absolute;
+        top: 40px;
+        left: 5%;
+    }
+
+    .logo .name {
+        font-size: 50px;
+        color: #6e6e6e !important;
+        line-height: 0;
+        user-select: none;
+        cursor: default;
+    }
+
+    .logo .profession {
+        font-size: 25px;
+        color: #6e6e6e;
+        padding-left: 5px;
+        margin: 0;
+        user-select: none;
+        cursor: default;
+    }
+
+    .logo p a:hover, .logo span a:hover {
+        color: #000024;
+    }
+
+    /* end of Header */
+    /* Footer */
+    #footer {
+        margin: 0;
+        padding: 10px 0;
+        width: 100%;
+        background: #4c4c4c;
+        text-align: center;
+    }
+
+    #footer .socials a {
+        text-decoration: none;
+        height: fit-content;
+        margin: 0 5px;
+    }
+}
